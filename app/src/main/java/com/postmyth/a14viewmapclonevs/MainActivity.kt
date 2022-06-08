@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             //myDatabase.execSQL("INSERT INTO musicians (name,age) VALUES ('JAMES',50)")
             //myDatabase.execSQL("UPDATE musicians SET age =62 WHERE name = 'Kirk'")
             //myDatabase.execSQL("DELETE FROM musicians WHERE age=62")
-            //testbiriki
+            //testbirikijgjk
 
             val cursor = myDatabase.rawQuery("SELECT * FROM musicians",null)
 
